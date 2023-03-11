@@ -1,0 +1,36 @@
+.line {
+  border-bottom: 1px solid #f00; /* Линия */
+}
+body {
+  background: #c7b39b; /*url(img/hero-bg.jpg)  цвет фона и путь к файлу */
+  /*color: #fff;  цвет текста */
+}
+
+h3 {
+  color: #000;
+  background: #eaeaea;
+  font-size: 18px;
+  font-weight: 400;
+  /*border:1px solid red;*/
+}
+
+.about {
+  color: #707070;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+}
+
+.annotation {
+  color: #484343;
+  line-heght: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.recense ul{
+  color: #123456;
+  font-size: 12px:
+  font-style: bold;
+}
