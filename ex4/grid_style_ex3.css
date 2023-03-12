@@ -1,0 +1,43 @@
+.grid{
+	display: grid;
+	grid-template-areas: 
+	    "ava title title"
+		"ava mail phone"
+		"skill skill qr";
+	grid-template-columns: 100px 200px 150px;
+	grid-gap: 20px;
+	margin: 0;
+	padding: 20px;
+	width: 530;
+	/*background-color: orange;*/
+}
+
+.ava{
+	grid-area: ava;
+	width: 100px;
+}
+
+.title{
+	grid-area: title;
+	width: 320px;
+}
+
+.mail{
+	grid-area: mail;
+	width: 200px;
+}
+
+.phone{
+	grid-area: phone;
+	width: 150px;
+}
+
+.skill{
+	grid-area: skill;
+	width: 320px;
+}
+
+.qr{
+	grid-area: qr;
+	width: 100px;
+}
